@@ -1,15 +1,20 @@
 {
   "name": "board_server",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "yeejun",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.2.0"
+  },
   "devDependencies": {
-    "nodemon": "^1.19.3"
+    "nodemon": "^2.0.4"
   }
 }
